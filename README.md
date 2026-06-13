@@ -1,5 +1,39 @@
 # Intelligent Tab Organizer 🗂️
 
+*(Italian version below / Versione italiana in basso)*
+
+Intelligent Tab Organizer is a Google Chrome extension that automatically organizes your browser tabs into logical and smart groups using the Gemini API.
+
+## Features
+
+- 🧠 **Smart Organization**: Groups open tabs based on their context and content.
+- 🎨 **Modern Interface**: Clean and carefully designed UI for a premium user experience.
+- 🔒 **API Key Security**: Your Gemini API key is securely saved in the extension's local storage (`chrome.storage.local`) and is never shared or hardcoded in the source.
+
+## Requirements
+
+- A Chromium-based browser (Google Chrome, Microsoft Edge, Brave, etc.).
+- A Gemini API key (you can get one for free at [Google AI Studio](https://aistudio.google.com/)).
+
+## Local Installation (Developer Mode)
+
+1. Download or clone this repository to your computer.
+2. Open Google Chrome and navigate to `chrome://extensions/`.
+3. Enable **Developer mode** in the top right corner.
+4. Click on **Load unpacked** in the top left corner.
+5. Select the folder containing this project's files.
+
+## Configuration
+
+1. Once the extension is installed, right-click on the extension icon and select **Options** (or open it via the extension details).
+2. Enter your Gemini API key.
+3. Click **Save**.
+4. You can now use the extension popup to organize your tabs with a single click!
+
+---
+
+# Intelligent Tab Organizer 🗂️ (Italiano)
+
 Intelligent Tab Organizer è un'estensione per Google Chrome che organizza automaticamente le tue schede (tab) in gruppi logici e intelligenti utilizzando l'API di Gemini.
 
 ## Caratteristiche
