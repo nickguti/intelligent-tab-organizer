@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Intelligent Tab Organizer",
+  "version": "1.0.0",
+  "description": "Automatically organizes tabs into intelligent groups using the Gemini API.",
+  "permissions": [
+    "tabs",
+    "tabGroups",
+    "storage"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "action": {
+    "default_title": "Intelligent Tab Organizer",
+    "default_popup": "popup.html"
+  }
+}
